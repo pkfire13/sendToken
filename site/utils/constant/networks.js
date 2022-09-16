@@ -1,0 +1,38 @@
+export const NETWORKS = {
+  1: {
+    name: 'Ethereum',
+    chainId: 1,
+    RPC: 'https://rpc.ankr.com/eth',
+    blockExplorer: 'https://etherscan.io/address/',
+    symbol: 'ETH',
+    contractAddress: '0xc20f7A86AeFe580ddc8CD0a1843eD598241E56BE',
+    hexChainID: '0x1',
+  },
+  42: {
+    name: 'Kovan Testnet',
+    chainId: 42,
+    RPC: '',
+    blockExplorer: 'https://kovan.etherscan.io/address/',
+    symbol: 'KETH',
+    contractAddress: '0x785305406579c68477c1eFa3a8d03beAa168a662',
+    hexChainID: '0x2a',
+  },
+  137: {
+    name: 'Polygon',
+    chainId: 137,
+    RPC: 'https://polygon-rpc.com',
+    blockExplorer: 'https://polygonscan.com/address/',
+    symbol: 'MATIC',
+    contractAddress: '0x98586E0CfD6B940244AaeB95Ab66dc567D852703',
+    hexChainID: '0x89',
+  },
+  56: {
+    name: 'Binance Smart Chain',
+    chainId: 56,
+    RPC: 'https://bsc-dataseed.binance.org',
+    blockExplorer: 'https://www.bscscan.com/address/',
+    symbol: 'BSC',
+    contractAddress: '0x27e1dF8108594DD1e0498eCbaA17115170AF1b7A',
+    hexChainID: '0x38',
+  },
+}
